@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "If x = 28, y = 24, what is x² + y²?",
+    "options": ["1362", "1360", "1361", "1359"]
+  },
+  {
+    "id": 2,
+    "question": "What is 26 × 37?",
+    "options": ["961", "964", "963", "962"]
+  },
+  {
+    "id": 3,
+    "question": "If a train travels 49 km in 16 hours, what is its average speed?",
+    "options": ["4", "3", "5", "2"]
+  },
+  {
+    "id": 4,
+    "question": "If a rectangle has length 10 and width 38, what is its area?",
+    "options": ["379", "381", "382", "380"]
+  },
+  {
+    "id": 5,
+    "question": "What is 7% of 10?",
+    "options": ["-1", "1", "0", "2"]
+  }
+]
