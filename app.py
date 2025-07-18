@@ -9,7 +9,7 @@ if "q_index" not in st.session_state:
     st.session_state.q_index = 0
     st.session_state.answers = []
 
-st.title("📝 Pre-employment Assessment")
+st.title("Pre-employment Assessment")
 
 if st.session_state.q_index < len(questions):
     q = questions[st.session_state.q_index]
@@ -24,7 +24,7 @@ if st.session_state.q_index < len(questions):
         st.session_state.q_index += 1
         st.experimental_rerun()
 else:
-    st.success("🎉 Assessment Completed!")
+    st.success("Assessment Completed!")
     st.write(f"You answered {len(st.session_state.answers)} questions.")
     for i, ans in enumerate(st.session_state.answers):
         st.markdown(f"**Q{i+1}:** {ans['question']}")
